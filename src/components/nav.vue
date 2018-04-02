@@ -17,7 +17,7 @@
 		  description: `
 		  The navigation bar is made up with pure CSS.
 		  `,
-		  token: '<div class="secondary-nav">\n\t<div id="nav">\`...\`\n\t</div>\n</div>',
+		  token: '<div class="secondary-nav">\n\t<div id="nav">\n\t\t...\n\t</div>\n</div>',
 		  props: {
 		    span: {
 		      type: String,
