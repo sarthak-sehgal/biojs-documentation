@@ -12,7 +12,24 @@
 
 <script>
 	export default {
-		
+		name: 'Navigation Bar',
+	  	introduction: 'A custom navigation bar for the website',
+		  description: `
+		  The navigation bar is made up with pure CSS.
+		  `,
+		  token: '<div class="secondary-nav">\n\t<div id="nav">\`...\`\n\t</div>\n</div>',
+		  props: {
+		    span: {
+		      type: String,
+		      default: '',
+		      note: "elements of nav bar are '<span>' elements"
+		    },
+		    active: {
+		      type: String,
+		      default: '',
+		      note: "'active' class is assigned to the element of the page currently opened"
+		    },
+		  }
 	}
 </script>
 

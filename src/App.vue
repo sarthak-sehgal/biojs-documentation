@@ -1,6 +1,7 @@
 <template>
   <div id="cover">
     <nav-bar></nav-bar>
+    <documentation></documentation>
   </div>
 </template>
 
